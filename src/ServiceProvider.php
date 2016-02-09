@@ -1,5 +1,6 @@
 <?php namespace Sextoy\YotpoLaravel;
 
+use Config;
 use Yotpo\Yotpo;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
