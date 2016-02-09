@@ -1,0 +1,22 @@
+{
+    "name": "sextoy/yotpo-laravel",
+    "description": "A simple Laravel 5 service provider for using the Yotpo-php API SDK.",
+    "keywords": ["laravel","yotpo"],
+    "type":"library",
+    "authors": [
+        {
+            "name": "Ryan Abrams",
+            "email": "ryan@cnv.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "yotpo/yotpo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sextoy\\YotpoLaravel": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+}
